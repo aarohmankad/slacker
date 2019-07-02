@@ -1,6 +1,7 @@
 const { RTMClient } = require('@slack/rtm-api');
 const { WebClient } = require('@slack/web-api');
 
+require('dotenv').config();
 const { SLACK_TOKEN, SLACK_BOT_TOKEN } = process.env;
 const rtm = new RTMClient(SLACK_BOT_TOKEN);
 const web = new WebClient(SLACK_TOKEN);
