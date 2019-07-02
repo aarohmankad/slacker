@@ -1,0 +1,23 @@
+{
+  "name": "slacker",
+  "version": "1.0.0",
+  "description": "A Slack bot that notifies the team of any status changes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slack",
+    "slacker",
+    "status",
+    "twitter",
+    "subscribe",
+    "changes"
+  ],
+  "author": "Aaroh Mankad <aarohmankad@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/rtm-api": "^5.0.1",
+    "@slack/web-api": "^5.0.1"
+  }
+}
