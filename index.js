@@ -8,7 +8,6 @@ let RANDOM_CHANNEL_ID = '';
 
 rtm.on('user_change', async event => {
   try {
-    console.log(RANDOM_CHANNEL_ID);
     const result = await web.chat.postMessage({
       text: `${event.user.name}\n ${event.user.profile.status_emoji} ${event.user.profile.status_text}`,
       channel: RANDOM_CHANNEL_ID,
